@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <main class="carousel">
+        <div class="carousel-imgs">
+            <div id="1" class="carousel-group">
+                <img class="carousel-img" src="./img/background-1.jpg" alt="background colors">
+                <button class="btn prev">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="btn-icon">
+                        <a href="#3" class="link">
+                            <path d="M15.75 19.5L8.25 12l7.5-7.5" />
+                        </a>
+                    </svg>
+
+                </button>
+                <button class="btn next"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="btn-icon ">
+                        <a href="#2" class="link">
+                            <path d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                        </a>
+                    </svg></button>
+
+                <div class="carousel-text">
+                    <h1>Material Design</h1>
+                    <p>Material is a design system created by Google to help teams build high-quality digital
+                        experiences for
+                        Android, iOS, Flutter, and the web. Material Design is inspired by the physical world and its
+                        textures,
+                        including how they reflect light and cast shadows.
+                    </p>
+                </div>
+            </div>
+
+            <div id="2" class="carousel-group">
+                <img class="carousel-img" src="./img/background-2.jpg" alt="background colors">
+                <button class="btn prev">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="btn-icon">
+                        <a href="#1" class="link">
+                            <path d="M15.75 19.5L8.25 12l7.5-7.5" />
+                        </a> </svg>
+                </button>
+                <button class="btn next"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="btn-icon ">
+                        <a href="#3" class="link">
+                            <path d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                        </a>
+                    </svg></button>
+
+                <div class="carousel-text">
+                    <h1>Foundation</h1>
+                    <p>Material Design defines the qualities that can be expressed by UI regions, surfaces, and
+                        components. Design and strategize how your app is built using foundations that address design
+                        from both a broad and detailed perspective.
+                    </p>
+                </div>
+            </div>
+
+            <div id="3" class="carousel-group">
+                <img class="carousel-img" src="./img/background-3.jpg" alt="background colors">
+                <button class="btn prev">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="btn-icon">
+                        <a href="#2" class="link">
+                            <path d="M15.75 19.5L8.25 12l7.5-7.5" />
+                        </a>
+                    </svg>
+                </button>
+                <button class="btn next"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="btn-icon ">
+                        <a href="#1" class="link">
+                            <path d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                        </a>
+                    </svg></button>
+
+                <div class="carousel-text">
+                    <h1>The color system</h1>
+                    <p>The Material Design color system helps you apply color to your UI in a meaningful way. In this
+                        system, you select a primary and a secondary color to represent your brand. Dark and light
+                        variants of each color can then be applied to your UI in different ways.
+                    </p>
+                </div>
+            </div>
+
+            <ul class="dots">
+                <li><a href="#1"></a></li>
+                <li><a href="#2"></a></li>
+                <li><a href="#3"></a></li>
+            </ul>
+
+        </div>
+
+    </main>
+</body>
+
+</html>
